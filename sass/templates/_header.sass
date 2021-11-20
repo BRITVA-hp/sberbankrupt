@@ -1,0 +1,29 @@
+.header
+    padding-bottom: 22px
+    padding-top: 22px
+    &__phone
+        display: none
+    &__container
+        max-width: 1320px
+    &__button
+        padding: 15px 18px
+        color: #08A652
+        font-size: 16px
+        font-weight: 500
+        background-color: #ffffff
+        overflow: visible
+        &::before
+            z-index: -1
+            left: -2px
+            top: -2px
+            right: -2px
+            bottom: -2px
+            border-radius: 0px 15px
+            background: linear-gradient(179.96deg, rgba(37, 216, 254, 0.85) -29.23%, rgba(22, 234, 25, 0.85) 99.97%)
+        &::after
+            display: none
+        &:hover
+            background-color: transparent
+            color: #ffffff
+            &::before
+                transform: none

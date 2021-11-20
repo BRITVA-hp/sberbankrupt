@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- style -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- map -->
+
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=eadd8618-2f5e-4c9c-972c-dbe1e1a23543&lang=ru_RU" type="text/javascript">
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="header section">
+
+        <div class="header__container container">
+            <div class="row">
+                <img src="img/header/logo.png" alt="logo" class="header__logo">
+                <button class="button header__button">Бесплатная консультация</button>
+                <img src="img/header/phone.png" alt="phone" class="header__phone">
+            </div>
+        </div>
+
+    </header>
+    <!-- /.header section -->
+
+    <main>
+
+        <section class="section main">
+
+            <div class="container main__container">
+                <div class="main__content">
+                    <div class="main__box">
+                        <h1 class="main__title">учавствуй в программе <br> <span>КРЕДИТНАЯ АМНИСТИЯ</span> <br> и спишите все кредитные долги законно</h1>
+                        <h2 class="main__subtitle">ПРОЙДИ ТЕСТ и <span>СПИШИ ДОЛГИ БЕЗ БАНКРОТСТВА</span> с сохранением имущества.</h2>
+    
+                        <button class="button main__button">Пройти тест</button>
+                    </div>
+
+                    <div class="main__ellipse">
+                        <span>Нет давлению <br> ФССП и <br> коллекторов!</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /.section main -->
+
+        <section class="section bonus">
+
+            <div class="container bonus__container">
+
+                <h3 class="bonus__title">Бонусы после прохождения:</h3>
+
+                <div class="row bonus__row">
+
+                    <div class="bonus__card">
+                        <div class="bonus__card__content">
+                            <img src="img/bonus/logo1.png" alt="logo" class="bonus__card__img">
+                            <span>Защита от коллекторов и банков</span>
+                        </div>
+                    </div>
+
+                    <div class="bonus__card">
+                        <div class="bonus__card__content">
+                            <img src="img/bonus/logo2.png" alt="logo" class="bonus__card__img">
+                            <span>Защита имущества</span>
+                        </div>
+                    </div>
+
+                    <div class="bonus__card">
+                        <div class="bonus__card__content">
+                            <img src="img/bonus/logo3.png" alt="logo" class="bonus__card__img">
+                            <span>Сохраним ваши финансы</span>
+                        </div>
+                    </div>
+
+                    <div class="bonus__card">
+                        <div class="bonus__card__content">
+                            <img src="img/bonus/logo4.png" alt="logo" class="bonus__card__img">
+                            <span>Процедура в 5 раз быстрее</span>
+                        </div>
+                    </div>
+
+                    <div class="bonus__card">
+                        <div class="bonus__card__content">
+                            <img src="img/bonus/logo5.png" alt="logo" class="bonus__card__img">
+                            <span>Не оставляем черных меток</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- /.section bonus -->
+
+        <section class="section quiz">
+
+            <div class="container">
+                <h3 class="section__title quiz__title">Ответьте на 3 вопроса, и узнайте возможно ли <span>списать ваш долг полностью</span></h3>
+
+                <div class="quiz__content">
+
+                    <img src="img/quiz/img1.png" alt="money" class="quiz__img">
+
+                    <p class="quiz__content__title">Укажите общую сумму задолженности</p>
+                    <p class="quiz__content__subtitle">Актуально только с долгом более 300 000 руб</p>
+
+                    <div class="quiz__box">
+
+                        <label class="quiz__label">
+                            <input name="radio" type="radio" class="quiz__radio">
+                            <span class="quiz__label__text">300  000 - 500 000 руб.</span>
+                        </label>
+
+                        <label class="quiz__label">
+                            <input name="radio" type="radio" class="quiz__radio">
+                            <span class="quiz__label__text">Более 500 000 руб.</span>
+                        </label>
+                    </div>
+
+                    <div class="quiz__button-group">
+                        <button class="button button--back quiz__button">Назад</button>
+                        <button class="button quiz__button">Далее</button>
+                    </div>
+                </div>
+
+                <div class="quiz__content--last" style="display: none;">
+
+                    <div class="quiz__block--last">
+
+                        <form action="#" class="quiz__box--last">
+                            <p class="quiz__content__title--last">Укажите Ваше имя и телефон, нажмите кнопку "Узнать результат", чтобы передать анкету старшему юристу.</p>
+
+                            <div class="quiz__input-group">
+                                <input placeholder="Имя" type="text" class="quiz__input">
+                            </div>
+
+                            <div class="quiz__input-group quiz__input-group--last">
+                                <input placeholder="+7 (___) ___ - __ - __" type="tel" class="quiz__input">
+                            </div>
+
+                            <button class="button quiz__button--last">Узнать результат</button>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /.section quiz -->
+
+        <section class="section can">
+
+            <div class="container">
+                <h3 class="section__title can__title">Какие долги <span>возможно списать</span> полностью:</h3>
+
+                <div class="row can__row can__row--first">
+
+                    <div class="can__card">
+                        <img class="can__card__img" src="img/can/logo1.png" alt="logo">
+                        <span class="can__card__text">МФО (Списание займов в микрофинансовых организациях)</span>
+                    </div>
+
+                    <div class="can__card">
+                        <img class="can__card__img" src="img/can/logo2.png" alt="logo">
+                        <span class="can__card__text">КРЕДИТЫ (В том числе пени и штрафы)</span>
+                    </div>
+
+                    <div class="can__card">
+                        <img class="can__card__img" src="img/can/logo3.png" alt="logo">
+                        <span class="can__card__text">По ЖКХ (Долги по квартплате, кап.ремонту, коммунальные платежи)</span>
+                    </div>
+
+                    <div class="can__card">
+                        <img class="can__card__img" src="img/can/logo4.png" alt="logo">
+                        <span class="can__card__text">Долги по налогам</span>
+                    </div>
+
+                    <div class="can__card">
+                        <img class="can__card__img" src="img/can/logo5.png" alt="logo">
+                        <span class="can__card__text">Долги по кредитным картам</span>
+                    </div>
+
+                    <div class="can__card">
+                        <img class="can__card__img" src="img/can/logo6.png" alt="logo">
+                        <span class="can__card__text">Долги физическим лицам</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /.section can -->
+
+        <section class="sectio not">
+
+            <div class="container">
+                <h3 class="section__title not__title">Какие долги <span>нельзя списать:</span></h3>
+
+                <div class="row not__row">
+
+                    <div class="not__card">
+                        <img src="img/not/logo1.png" alt="logo" class="not__card__img">
+                        <span class="not__card__text">Ипотека</span>
+                    </div>
+
+                    <div class="not__card">
+                        <img src="img/not/logo2.png" alt="logo" class="not__card__img">
+                        <span class="not__card__text">Дорожные штрафы</span>
+                    </div>
+
+                    <div class="not__card">
+                        <img src="img/not/logo3.png" alt="logo" class="not__card__img">
+                        <span class="not__card__text">Алименты</span>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- /.sectio not -->
+
+        <section class="section process">
+
+            <div class="container process__container">
+                <h3 class="section__title process__title">Как происходит <span>процесс списания долгов:</span></h3>
+
+                <div class="process__row">
+
+                    <div class="process__card process__card--1">
+                        <div class="process__card__content process__card__content--1">
+                            <img src="img/process/logo1.png" alt="logo" class="process__card__img">
+                            <ul class="process__card__ul">
+                                <li class="process__card__li">Сами собираем справки и выписки для подачи в суд</li>
+                                <li class="process__card__li">На этом этапе включаем защиту от коллекторов: вам перестают звонить, приходить домой и на работу</li>
+                                <li class="process__card__li">Даже если у вас недостает каких либо документов - мы их восстанавливаем</li>
+                            </ul>
+    
+                            <div class="process__card__dots">
+                                <div class="process__card__dot process__card__dot--solid"></div>
+                                <div class="process__card__dot"></div>
+                                <div class="process__card__dot"></div>
+                                <div class="process__card__dot"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="process__card process__card--2">
+                        <div class="process__card__content process__card__content--2">
+                            <img src="img/process/logo2.png" alt="logo" class="process__card__img">
+                            <ul class="process__card__ul">
+                                <li class="process__card__li">Готовим заявление о несостоятельности</li>
+                                <li class="process__card__li">Подаем готовое заявление в суд</li>
+                                <li class="process__card__li">Ожидаем назначения судебного заседания</li>
+                                <li class="process__card__li">Готовим дополнительные документы для суда</li>
+                            </ul>
+    
+                            <div class="process__card__dots">
+                                <div class="process__card__dot"></div>
+                                <div class="process__card__dot process__card__dot--solid"></div>
+                                <div class="process__card__dot"></div>
+                                <div class="process__card__dot"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="process__card process__card--3">
+                        <div class="process__card__content process__card__content--3">
+                            <img src="img/process/logo3.png" alt="logo" class="process__card__img">
+                            <ul class="process__card__ul">
+                                <li class="process__card__li">Представляем интересы клиента в суде</li>
+                                <li class="process__card__li">Доказываем материальную несостоятельность</li>
+                                <li class="process__card__li">Добиваемся признания клиента Банкротом</li>
+                            </ul>
+    
+                            <div class="process__card__dots">
+                                <div class="process__card__dot"></div>
+                                <div class="process__card__dot"></div>
+                                <div class="process__card__dot process__card__dot--solid"></div>
+                                <div class="process__card__dot"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="process__card process__card--4">
+                        <div class="process__card__content process__card__content--4">
+                            <img src="img/process/logo4.png" alt="logo" class="process__card__img">
+                            <ul class="process__card__ul">
+                                <li class="process__card__li">С этого момента по решению суда вы полностью освобождаетесь от уплаты долгов</li>
+                                <li class="process__card__li">Все долги полностью и навсегда списаны</li>
+                                <li class="process__card__li">Вы можете оформлять на себя имущество и получать белую зарплату</li>
+                                <li class="process__card__li">Вам разрешен выезд из РФ в любом направлении</li>
+                            </ul>
+    
+                            <div class="process__card__dots">
+                                <div class="process__card__dot process__card__dot--white"></div>
+                                <div class="process__card__dot process__card__dot--white"></div>
+                                <div class="process__card__dot process__card__dot--white"></div>
+                                <div class="process__card__dot process__card__dot--white process__card__dot--solid--white"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- /.section process -->
+
+        <section class="section calc">
+
+            <div class="container calc_container">
+
+                <h3 class="section__title calc__title">В десятки раз <span>дешевле списать долги,</span> чем их выплачивать</h3>
+                <p class="calc__subtitle">Воспользуйтесь экспресс калькулятором и узнайте стоимость списания ваших долгов в 4 клика</p>
+
+                <div class="row calc__row">
+                    <form action="#" class="calc__form">
+
+                        <div class="calc__input-group">
+                            <p class="calc__label calc__question">Сумма задолженности <br> <span>Актуально только с суммой долга более 300 000 руб</span></p>
+                
+                            <div data-select class="calc__select calc__answer">
+                                <span>300 000 - 500 000 руб.</span>
+                                <div class="calc__select__content">
+                                    <div data-option class="calc__option">300 000 - 500 000 руб.</div>
+                                    <div data-option class="calc__option">500 000 - 1 000 000 руб.</div>
+                                    <div data-option class="calc__option">Более 1 000 000 руб.</div>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                        <div class="calc__input-group">
+                            <p for="delays" class="calc__label calc__question">У Вас есть просрочки?</p>
+                
+                            <div data-select class="calc__select calc__answer">
+                                <span>Да</span>
+                                <div class="calc__select__content">
+                                    <div data-option class="calc__option">Да</div>
+                                    <div data-option class="calc__option">Нет</div>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                        <div class="calc__input-group">
+                            <p for="property" class="calc__label calc__question">Есть ли у Вас имущество? <br> <span>С ипотекой не работаем!</span></p>
+                
+                            <div data-select class="calc__select calc__answer">
+                                <span>Да</span>
+                                <div class="calc__select__content">
+                                    <div data-option class="calc__option">Да</div>
+                                    <div data-option class="calc__option">Нет</div>
+                                </div>
+                            </div>
+                
+                        </div>
+                
+                        <div class="calc__input-group">
+                            <label class="calc__label" for="tel">Телефон</label>
+                            <input placeholder="+7 (___) ___ - __ - __" type="tel" id="tel" class="calc__input" maxlength="16">
+                        </div>
+                
+                        <button class="button calc__button">Рассчитать стоимость</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- /.sectio calc -->
+
+        <section class="section map">
+
+            <div class="container">
+                <h3 class="section__title map__title">Контакты</h3>
+                <p class="map__subtitle">График работы: пн-пт 09:00–19:00;
+                    <br><br>
+                    Адрес: 610002, Кировская область, г. Киров, ул. Орловская, д. 51<br>
+                    Телефон: 8(800)350-57-79<br>
+                    ОГРН: 1174350004465</p>
+
+                <div class="map__map" id="map"></div>
+            </div>
+
+        </section>
+        <!-- /.section map -->
+
+    </main>
+
+    <div class="modal modal-main">
+
+        <form action="#" class="modal-main__dialog">
+            <img src="img/modal/close.png" alt="close" class="modal-main__close">
+
+            <p class="modal-main__title">Укажите Ваше имя и телефон для консультации с нашим юристом.</p>
+
+            <div class="modal-main__input-group">
+                <input placeholder="Имя" type="text" class="modal-main__input">
+            </div>
+
+            <div class="modal-main__input-group modal-main__input-group--last">
+                <input placeholder="+7 (___) ___ - __ - __" type="text" class="modal-main__input">
+            </div>
+
+            <button class="button modal-main__button">Оставить заявку</button>
+        </form>
+
+    </div>
+    <!-- /.modal modal-main modal--active -->
+
+    <modal class="modal modal-ok">
+
+        <div class="modal-ok__dialog">
+            <img src="img/modal/close.png" alt="close" class="modal-ok__close">
+
+            <img src="img/modal/ok.png" alt="ok" class="modal-ok__img">
+
+            <p class="modal-ok__title">Спасибо за ответы!</p>
+            <p class="modal-ok__text">В ближайшие 10 минут с Вами свяжется юрист.</p>
+        </div>
+
+    </modal>
+    <!-- /.modal--active modal__ok -->
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

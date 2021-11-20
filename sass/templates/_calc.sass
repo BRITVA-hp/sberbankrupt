@@ -1,0 +1,113 @@
+.calc
+    margin-bottom: 180px
+    &__title
+        max-width: 900px
+        margin-bottom: 20px
+        span
+            color: #08A652
+    &__subtitle
+        font-family: 'HelveticaNeue', sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 120%
+        text-align: center
+        color: #444444
+        margin-bottom: 90px
+    &__row
+        background-image: url(../img/calc/bg.png)
+        background-repeat: no-repeat
+        background-position-x: right
+        background-position-y: bottom
+    &__button
+        width: 100%
+    &__form
+        padding: 60px 100px
+        background: linear-gradient(229.73deg, #FCFEFF 0%, #DCF9F4 100%)
+        border: 1px solid #9CA8BA
+        border-radius: 10px
+        position: relative
+        z-index: 1
+    &__input-group
+        display: flex
+        flex-direction: column
+        width: 506px
+        margin-bottom: 30px
+    &__label
+        font-family: 'HelveticaNeue', sans-serif
+        font-weight: 500
+        font-style: normal
+        font-size: 28px
+        line-height: 120%
+        margin-bottom: 20px
+        cursor: pointer
+        span
+            font-weight: normal
+            color: #444444
+            font-size: 20px
+    &__select
+        background-color: #FFFFFF
+        border: 1px solid #9CA8BA
+        border-radius: 6px
+        cursor: pointer
+        padding: 20px
+        position: relative
+        transition: 0.3s
+        font-family: 'HelveticaNeue', sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 120%
+        &::after
+            content: ''
+            position: absolute
+            width: 16px
+            height: 10px
+            background-image: url(../img/calc/arrow.png)
+            background-repeat: no-repeat
+            background-position: center
+            right: 25px
+            top: 50%
+            transform: translateY(-50%)
+            transition: 0.3s
+        &--active
+            border-radius: 6px 6px 0 0
+            .calc__select__content
+                z-index: 3
+                border: 1px solid #9CA8BA
+                border-top: none
+            &::after
+                transform: translateY(-50%) rotate(180deg)
+        &__content
+            position: absolute
+            width: calc( 100% + 2px )
+            left: -1px
+            top: 100%
+            z-index: -1
+            background-color: #FFFFFF
+            border-radius: 0 0 6px 6px
+            max-height: 0px
+            overflow: hidden
+            border: 0px
+            transition: 0.3s
+    &__option
+        padding: 20px
+        transition: 0.3s
+        border-bottom: 1px solid #9CA8BA
+        &:first-of-type
+            border-top: 1px solid #9CA8BA
+        &:hover
+            background-color: #F3E1FD
+    &__input
+        font-family: 'HelveticaNeue', sans-serif
+        font-style: normal
+        font-weight: normal
+        font-size: 24px
+        line-height: 120%
+        color: #9CA8BA
+        padding: 20px
+        background-color: #FFFFFF
+        border: 1px solid #9CA8BA
+        border-radius: 6px
+        &:focus
+            outline: none

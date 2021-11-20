@@ -1,0 +1,72 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+img
+    max-width: 100%
+    height: auto
+
+body
+    font-family: 'AvenirNextCyr', sans-serif
+    font-size: 24px
+    font-weight: normal
+    background-color: #ffffff
+    color: #1F1F1F
+
+.button
+    font-family: 'HelveticaNeue', sans-serif
+    font-size: 24px
+    font-weight: bold
+    line-height: 120%
+    font-style: normal
+    color: #ffffff
+    padding: 20px 0
+    transition: 0.5s
+    cursor: pointer
+    background-color: transparent
+    border-radius: 0px 15px
+    border: none
+    overflow: hidden
+    position: relative
+    &::before
+        content: ''
+        position: absolute
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
+        background: linear-gradient(179.96deg, rgba(234, 252, 31, 0.85) -29.23%, rgba(8, 166, 82, 0.85) 99.97%)
+        z-index: -1
+        transition: 0.5s
+    &::after
+        content: ''
+        position: absolute
+        left: 0
+        top: 0
+        right: 0
+        bottom: 0
+        background: linear-gradient(179.96deg, rgba(234, 252, 31, 0.85) -29.23%, rgba(8, 166, 82, 0.85) 99.97%)
+        z-index: -2
+        transition: 0.5s
+        transform: rotate(180deg)
+    &:hover
+        &::before
+            transform: rotate(180deg)
+    &:focus
+        outline: none
+    &--back
+        padding: 18px 0
+        background-color: #ffffff
+        color: #08A652
+        border: 1px solid #08A652
+        margin-right: 20px
+        &::before
+            left: -1
+            top: -1
+            right: -1
+            bottom: -1
+        &:hover
+            background-color: transparent
+            color: #ffffff
+            border: 1px solid transparent

@@ -1,0 +1,63 @@
+//AvenirNextCyr
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src:
+    url('../fonts/AvenirNextCyr-Bold.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src:
+    url('../fonts/AvenirNextCyr-Medium.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Medium.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'AvenirNextCyr';
+    src:
+    url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+    url('../fonts/AvenirNextCyr-Regular.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+//HelveticaNeue
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src:
+    url('../fonts/HelveticaNeueCyr-Bold.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src:
+    url('../fonts/HelveticaNeueCyr-Medium.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src:
+    url('../fonts/HelveticaNeueCyr-Roman.woff') format('woff'),
+    url('../fonts/HelveticaNeueCyr-Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
